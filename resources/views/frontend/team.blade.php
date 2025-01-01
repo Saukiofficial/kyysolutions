@@ -28,30 +28,29 @@
   <link href="{{ asset ('frontend/css/main.css') }}" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Lumia
+  * Template Name: KyySolutions
   * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
+
   ======================================================== -->
 </head>
 
 <body class="index-page">
-
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="url {'home'}" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
+      <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
          <img src="{{ asset('frontend/img/logo.png') }}" alt="">
         <h1 class="sitename">KyySolutions</h1>
       </a>
 
       <nav id="navmenu" class="navmenu ">
     <ul>
-        <a href="{{ route('home') }}">Home</a>
-        <a href="{{ route('about') }}">About</a>
-        <a href="{{ route('service') }}">Services</a>
+        <a href="{{ route('home') }}">Beranda</a>
+        <a href="{{ route('about') }}">Tentang</a>
+        <a href="{{ route('service') }}">Pelayanan</a>
         <a href="{{ route('portfolio') }}">Portfolio</a>
         <a href="{{ route('team') }}">Team</a>
         <a href="{{ route('contact') }}">Contact</a>
@@ -61,9 +60,6 @@
 
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -75,7 +71,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Perkenalkan para profesional di balik KYY Solutions - tempat dimana kreativitas bertemu teknologi. Tim kami terdiri dari web developer yang inovatif, desainer grafis yang kreatif, pengembang media pembelajaran dan game edukasi yang berpengalaman, serta konsultan akademis yang siap membantu perjalanan pendidikan Anda. Bersama-sama, kami berkomitmen menghadirkan solusi digital yang tidak hanya fungsional, tetapi juga bermakna. velit</p>
       </div><!-- End Section Title -->
 
       <div class="content">
@@ -85,15 +81,15 @@
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="person">
                 <figure>
-                  <img src="{{ asset ('frontend/img/team/team-1.jpg') }}" alt="Image" class="img-fluid">
+                  <img src="{{ asset ('frontend/img/team/sauki.jpg') }}" alt="Image" class="img-fluid">
                   <div class="social">
-                    <a href="#"><span class="bi bi-facebook"></span></a>
-                    <a href="#"><span class="bi bi-twitter-x"></span></a>
-                    <a href="#"><span class="bi bi-linkedin"></span></a>
+                    <a href="https://www.tiktok.com/@kyy_solutions?"><span class="bi bi-tiktok"></span></a>
+                    <a href="#"><span class="bi bi-instagram"></span></a>
+                    <a href="#"><span class="bi bi-github"></span></a>
                   </div>
                 </figure>
                 <div class="person-contents">
-                  <h3>Joshua Stefan</h3>
+                  <h3>Sauki Anna'im</h3>
                   <span class="position">Web Development</span>
                 </div>
               </div>
@@ -102,16 +98,16 @@
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="person">
                 <figure>
-                  <img src="{{ asset ('frontend/img/team/team-2.jpg') }}" alt="Image" class="img-fluid">
+                  <img src="{{ asset ('frontend/img/team/luluk.jpg') }}" alt="Image" class="img-fluid">
                   <div class="social">
-                    <a href="#"><span class="bi bi-facebook"></span></a>
-                    <a href="#"><span class="bi bi-twitter-x"></span></a>
-                    <a href="#"><span class="bi bi-linkedin"></span></a>
+                  <a href="#"><span class="bi bi-tiktok"></span></a>
+                    <a href="#"><span class="bi bi-instagram"></span></a>
+                    <a href="#"><span class="bi bi-github"></span></a>
                   </div>
                 </figure>
                 <div class="person-contents">
-                  <h3>Sheena Anderson</h3>
-                  <span class="position">Marketing</span>
+                  <h3>Luluk Kusfiah</h3>
+                  <span class="position">konsultan akademik</span>
                 </div>
               </div>
             </div>
@@ -156,8 +152,7 @@
 
     </section><!-- /Team Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="skills" class="skills section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -194,6 +189,10 @@
               </div>
             </div><!-- End Info Item -->
 
+        <div class="progress">
+          <span class="skill"><i class="bi bi-css3"></i> <span>CSS</span> <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
 
           <div class="col-lg-7">
@@ -206,15 +205,17 @@
 
                 <div class="col-md-6 ">
                   <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
+      </div>
 
                 <div class="col-md-12">
                   <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
                 </div>
 
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
+        <div class="progress">
+          <span class="skill"><i class="bi bi-php"></i> <span>PHP</span> <i class="val">80%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
 
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
@@ -236,60 +237,14 @@
 
   </main>
 
-  <footer id="footer" class="footer light-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Lumia</span>
-          </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
-        </div>
-
-      </div>
+<div class="container-fluid bg-primary py-4" style="background-color: #060e46; width: 100vw; margin-left: calc(-50vw + 50%);">
+  <div class="container copyright text-center">
+    <p> <span>Copyright</span> <strong class="px-1 sitename">KyySolutions</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Lumia</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
+  </div>
+</div>
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
