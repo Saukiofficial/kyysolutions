@@ -228,7 +228,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: white;
+    color: rgb(233, 235, 243);
     padding: 10px 15px;
     margin-left: 2px;
     font-size: 20px;
@@ -318,7 +318,7 @@ h6 {
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: white;
+    color: rgb(40, 104, 109);
     font-size: 28px;
     line-height: 0;
     margin-right: 10px;
@@ -385,7 +385,7 @@ h6 {
     justify-content: center;
     border-radius: 50%;
     transition: 0.3s;
-    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    background-color: color-mix(in srgb, var(--accent-color), transparent 100%);
   }
 
   .navmenu a i:hover,

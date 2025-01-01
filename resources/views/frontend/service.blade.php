@@ -84,92 +84,151 @@
     <section id="services" class="services section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      <!-- Services Section -->
+      <section id="services" class="services section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Services</h2>
+          <p>Kami menyediakan berbagai layanan profesional untuk memenuhi kebutuhan digital Anda</p>
+        </div>
 
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-globe"></i>
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item position-relative h-100 shadow-sm rounded-3 p-4 border border-light hover-shadow transition">
+                <div class="icon-box mb-4">
+                  <div class="icon bg-primary bg-opacity-10 rounded-circle p-3 d-inline-flex">
+                    <i class="bi bi-globe text-primary fs-3"></i>
+                  </div>
+                </div>
+                <a href="{{ route ('website-service-details') }}" class="text-decoration-none">
+                  <h3 class="h4 mb-3 text-dark">Pembuatan Website</h3>
+                </a>
+                <p class="text-muted mb-4">Kami mengembangkan website profesional yang responsif, modern, dan sesuai dengan kebutuhan bisnis Anda. Dengan teknologi terkini dan desain yang menarik.</p>
+                <a href="{{ route ('website-service-details') }}" class="btn btn-outline-primary rounded-pill px-4">Learn More</a>
               </div>
-              <a href="{{ route ('website-service-details') }}" class="stretched-link">
-                <h3>Pembuatan Website</h3>
-              </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="{{ route ('website-service-details') }}" class="stretched-link"></a>
             </div>
 
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-controller"></i>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative h-100 shadow-sm rounded-3 p-4 border border-light hover-shadow transition">
+                <div class="icon-box mb-4">
+                  <div class="icon bg-danger bg-opacity-10 rounded-circle p-3 d-inline-flex">
+                    <i class="bi bi-controller text-danger fs-3"></i>
+                  </div>
+                </div>
+                <a href="{{ route ('game-service-details') }}" class="text-decoration-none">
+                  <h3 class="h4 mb-3 text-dark">Pembuatan Game</h3>
+                </a>
+                <p class="text-muted mb-4">Kembangkan game yang menarik dan interaktif dengan tim developer kami. Dari konsep hingga implementasi, kami siap mewujudkan ide game Anda.</p>
+                <a href="{{ route ('game-service-details') }}" class="btn btn-outline-danger rounded-pill px-4">Learn More</a>
               </div>
-              <a href="{{ route ('game-service-details') }}" class="stretched-link">
-                <h3>pembuatan Game</h3>
-              </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="{{ route ('game-service-details') }}" class="stretched-link"></a>
             </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-journal-code"></i>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative h-100 shadow-sm rounded-3 p-4 border border-light hover-shadow transition">
+                <div class="icon-box mb-4">
+                  <div class="icon bg-success bg-opacity-10 rounded-circle p-3 d-inline-flex">
+                    <i class="bi bi-journal-code text-success fs-3"></i>
+                  </div>
+                </div>
+                <a href="{{ route ('media-service-details') }}" class="text-decoration-none">
+                  <h3 class="h4 mb-3 text-dark">Media Pembelajaran</h3>
+                </a>
+                <p class="text-muted mb-4">Solusi media pembelajaran interaktif yang efektif untuk meningkatkan engagement dan pemahaman siswa dalam proses belajar mengajar.</p>
+                <a href="{{ route ('media-service-details') }}" class="btn btn-outline-success rounded-pill px-4">Learn More</a>
               </div>
-              <a href="{{ route ('media-service-details') }}" class="stretched-link">
-                <h3>Media Pembelajaran</h3>
-              </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="{{ route ('media-service-details') }}" class="stretched-link"></a>
             </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-laptop"></i>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item position-relative h-100 shadow-sm rounded-3 p-4 border border-light hover-shadow transition">
+                <div class="icon-box mb-4">
+                  <div class="icon bg-info bg-opacity-10 rounded-circle p-3 d-inline-flex">
+                    <i class="bi bi-laptop text-info fs-3"></i>
+                  </div>
+                </div>
+                <a href="{{ route ('design-service-details') }}" class="text-decoration-none">
+                  <h3 class="h4 mb-3 text-dark">Design Grafis</h3>
+                </a>
+                <p class="text-muted mb-4">Layanan desain grafis profesional untuk kebutuhan branding, marketing, dan komunikasi visual bisnis Anda dengan hasil yang eye-catching.</p>
+                <a href="{{ route ('design-service-details') }}" class="btn btn-outline-info rounded-pill px-4">Learn More</a>
               </div>
-              <a href="{{ route ('design-service-details') }}" class="stretched-link">
-                <h3>Design Grafis</h3>
-              </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="{{ route ('design-service-details') }}" class="stretched-link"></a>
             </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-boxes"></i>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item position-relative h-100 shadow-sm rounded-3 p-4 border border-light hover-shadow transition">
+                <div class="icon-box mb-4">
+                  <div class="icon bg-warning bg-opacity-10 rounded-circle p-3 d-inline-flex">
+                    <i class="bi bi-boxes text-warning fs-3"></i>
+                  </div>
+                </div>
+                <a href="{{ route ('asset3d-service-details') }}" class="text-decoration-none">
+                  <h3 class="h4 mb-3 text-dark">Asset 3D</h3>
+                </a>
+                <p class="text-muted mb-4">Pembuatan asset 3D berkualitas tinggi untuk game, animasi, atau kebutuhan visualisasi produk dengan detail yang memukau.</p>
+                <a href="{{ route ('asset3d-service-details') }}" class="btn btn-outline-warning rounded-pill px-4">Learn More</a>
               </div>
-              <a href="{{ route ('asset3d-service-details') }}" class="stretched-link">
-                <h3>Asset 3D</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="{{ route ('asset3d-service-details') }}" class="stretched-link"></a>
             </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-file-word"></i>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item position-relative h-100 shadow-sm rounded-3 p-4 border border-light hover-shadow transition">
+                <div class="icon-box mb-4">
+                  <div class="icon bg-secondary bg-opacity-10 rounded-circle p-3 d-inline-flex">
+                    <i class="bi bi-file-word text-secondary fs-3"></i>
+                  </div>
+                </div>
+                <a href="{{ route ('skripsi-service-details') }}" class="text-decoration-none">
+                  <h3 class="h4 mb-3 text-dark">Skripsi</h3>
+                </a>
+                <p class="text-muted mb-4">Bantuan dan konsultasi pengerjaan skripsi dengan pendekatan profesional dan sesuai dengan standar akademik yang berlaku.</p>
+                <a href="{{ route ('skripsi-service-details') }}" class="btn btn-outline-secondary rounded-pill px-4">Learn More</a>
               </div>
-              <a href="{{ route ('skripsi-service-details') }}" class="stretched-link">
-                <h3>Skripsi</h3>
-              </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="{{ route ('skripsi-service-details') }}" class="stretched-link"></a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <style>
+      .service-item {
+        transition: all 0.3s ease;
+        background: white;
+      }
+
+      .service-item:hover {
+        transform: translateY(-5px);
+      }
+
+      .hover-shadow:hover {
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+      }
+
+      .transition {
+        transition: all 0.3s ease-in-out;
+      }
+
+      .icon-box .icon {
+        width: 65px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .section-title {
+        margin-bottom: 3rem;
+      }
+
+      .section-title h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #020330;
+        margin-bottom: 1rem;
+      }
+
+      .section-title p {
+        color: #6c757d;
+        font-size: 1.1rem;
+      }
+      </style>
           </div><!-- End Service Item -->
 
         </div>
