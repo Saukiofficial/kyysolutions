@@ -43,7 +43,6 @@
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
          <img src="{{ asset('frontend/img/logo.png') }}" alt="">
         <h1 class="sitename">KyySolutions</h1>
       </a>
@@ -67,7 +66,21 @@
 
     </div>
   </header>
+  <!-- Hero Section -->
+  <section id="hero" class="hero section dark-background d-flex align-items-center justify-content-center">
+  <img src="frontend/img/sementara.jpg" alt="" data-aos="fade-in" class="img-fluid w-100">
 
+
+  <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10 col-sm-12">
+        <h2 class="display-3">Contact</h2>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- /Hero Section -->
   <main class="main">
 
     <!-- Contact Section -->

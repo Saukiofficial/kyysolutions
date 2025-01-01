@@ -64,7 +64,21 @@
 
     </div>
   </header>
+  <!-- Hero Section -->
+  <section id="hero" class="hero section dark-background d-flex align-items-center justify-content-center">
+  <img src="frontend/img/sementara.jpg" alt="" data-aos="fade-in" class="img-fluid w-100">
 
+
+  <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10 col-sm-12">
+        <h2 class="display-3">Team</h2>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- /Hero Section -->
   <main class="main">
     <!-- Team Section -->
     <section class="team-15 team section" id="team">
