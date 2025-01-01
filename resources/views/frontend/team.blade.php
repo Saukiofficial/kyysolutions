@@ -113,7 +113,7 @@
             <div class="social">
               <a href="#"><span class="bi bi-tiktok"></span></a>
               <a href="#"><span class="bi bi-instagram"></span></a>
-              <a href="{{ route ('dimas') }}"><span class="bi bi-person-standing""></span></a>
+              <a href="{{ route ('Dimas') }}"><span class="bi bi-person-standing""></span></a>
             </div>
           </figure>
         </div>

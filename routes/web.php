@@ -53,9 +53,9 @@ Route::get('/luluk', function(){
 Route::get('/sauki', function(){
     return view('frontend.detail_team.sauki');
 })->name('sauki');
-Route::get('/dimas', function(){
-    return view('frontend.detail_team.dimas');
-})->name('dimas');
+Route::get('/Dimas', function(){
+    return view('frontend.detail_team.Dimas');
+})->name('Dimas');
 Route::get('/ibs-detail', function(){
     return view('frontend.portfolio-detail.ibs-detail');
 })->name('ibs-detail');

@@ -80,7 +80,8 @@
               </div>
             </div>
           </div>
-  <video autoplay loop muted src="{{ asset ('frontend/img/kyylogo.mp4') }}" alt="" data-aos="fade-in" style="width: 100%; height: 100vh; object-fit: cover; position: absolute; top: 0; left: 0;">
+        <video autoplay loop muted src="{{ asset ('frontend/img/kyylogo.mp4') }}" alt="" data-aos="fade-in" style="width: 100%; height: 100vh; object-fit: cover; position: absolute; top: 0; left: 0;">
+
 </section>
     <!-- /Hero Section -->
     <footer>
