@@ -78,7 +78,6 @@
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
          <img src="{{ asset('frontend/img/logo.png') }}" alt="">
         <h1 class="sitename">KyySolutions</h1>
       </a>
@@ -137,23 +136,23 @@
                 <h2 class="mb-4">TOOLS</h2>
                 <div class="row">
                     <div class="col-3 col-md-2 text-center">
-                        <img src="{{ asset('frontend/img/detail-team/tools/CorelDraw.png') }}" class="tool-icon" alt="vscode">
+                        <img src="{{ asset('frontend/img/detail-team/tools/CorelDraw.png') }}" class="tool-icon" alt="CorelDraw">
                         <p class="mt-2">CorelDraw</p>
                     </div>
                     <div class="col-3 col-md-2 text-center">
-                        <img src="{{ asset('frontend/img/detail-team/tools/Photoshop.png') }}" class="tool-icon" alt="vscode">
+                        <img src="{{ asset('frontend/img/detail-team/tools/PhotoShop.png') }}" class="tool-icon" alt="PhotoShop">
                         <p class="mt-2">PhotoShop</p>
                     </div>
                     <div class="col-3 col-md-2 text-center">
-                        <img src="{{ asset('frontend/img/detail-team/tools/Blander.png') }}" class="tool-icon" alt="vscode">
+                        <img src="{{ asset('frontend/img/detail-team/tools/Blander.png') }}" class="tool-icon" alt="Blander">
                         <p class="mt-2">Blander</p>
                     </div>
                     <div class="col-3 col-md-2 text-center">
-                        <img src="{{ asset('frontend/img/detail-team/tools/Misamo.png') }}" class="tool-icon" alt="vscode">
+                        <img src="{{ asset('frontend/img/detail-team/tools/Misamo.png') }}" class="tool-icon" alt="Misamo">
                         <p class="mt-2">Misamo</p>
                     </div>
                     <div class="col-3 col-md-2 text-center">
-                        <img src="{{ asset('frontend/img/detail-team/tools/Unity.png') }}" class="tool-icon" alt="vscode">
+                        <img src="{{ asset('frontend/img/detail-team/tools/Unity.png') }}" class="tool-icon" alt="Unity">
                         <p class="mt-2">Unity</p>
                     </div>
 
