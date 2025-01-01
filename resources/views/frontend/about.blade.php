@@ -68,7 +68,7 @@
   </header>
   <!-- Hero Section -->
   <section id="hero" class="hero section dark-background d-flex align-items-center justify-content-center">
-  <img src="frontend/img/services.jpg" alt="" data-aos="fade-in" class="img-fluid w-100">
+  <img src="frontend/img/sementara.jpg" alt="" data-aos="fade-in" class="img-fluid w-100">
 
 
   <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
