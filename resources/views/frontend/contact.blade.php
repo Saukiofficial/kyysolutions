@@ -29,7 +29,7 @@
   <link href="{{ asset ('frontend/css/main.css') }}" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Lumia
+  * Template Name: kyysolutions
   * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
@@ -42,7 +42,7 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="url {'home'}" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
          <img src="{{ asset('frontend/img/logo.png') }}" alt="">
         <h1 class="sitename">KyySolutions</h1>
@@ -50,44 +50,25 @@
 
       <nav id="navmenu" class="navmenu ">
         <ul>
-        <a href="{{ route('home') }}">Home</a>
-        <a href="{{ route('about') }}">About</a>
-        <a href="{{ route('service') }}">Services</a>
+         <a href="{{ route('home') }}">Beranda</a>
+        <a href="{{ route('about') }}">Tentang</a>
+        <a href="{{ route('service') }}">Pelayanan</a>
         <a href="{{ route('portfolio') }}">Portfolio</a>
         <a href="{{ route('team') }}">Team</a>
-        <a href="{{ route('contact') }}">Contact</a>
+        <a href="{{ route('contact') }}"class="active">Contact</a>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+
       </div>
 
     </div>
   </header>
 
   <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="{{ asset ('frontend/img/hero-bg.jpg') }}" alt="" data-aos="fade-in">
-
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Welcome to KyySolutions</h2>
-            <p>Solusi Terbaik untuk kebutuhan anda</p>
-            <a href="#about" class="btn-get-started">Get Started</a>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -106,16 +87,16 @@
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3>Alamat</h3>
+                <p>Poreh, Lenteng, Sumenep, Madura, Jawa Timur, Indonesia, 69461.</p>
               </div>
             </div><!-- End Info Item -->
 
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <h3>Telephone</h3>
+                <p>081232916758</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -123,7 +104,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>kyysolutions17@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -169,18 +150,17 @@
 
   </main>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Lumia</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  <footer>
+    <div class="container-fluid" style="background-color: #020330; width: 100vw; margin-left: calc(-50vw + 50%); bottom: 0; left: 0; z-index: 1000;">
+      <div class="container copyright text-center p-4">
+        <p> <span>Copyright</span> <strong class="px-1 sitename">KyySolutions</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a href="#">Sauki Annaim</a>
+        </div>
       </div>
     </div>
 
-  </footer>
+      </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

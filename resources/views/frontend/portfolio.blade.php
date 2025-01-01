@@ -28,7 +28,7 @@
   <link href="{{ asset ('frontend/css/main.css') }}" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Lumia
+  * Template Name: KyySolutions
   * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
@@ -41,17 +41,17 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="url {'home'}" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
          <img src="{{ asset('frontend/img/logo.png') }}" alt="">
         <h1 class="sitename">KyySolutions</h1>
       </a>
 
       <nav id="navmenu" class="navmenu ">
     <ul>
-        <a href="{{ route('home') }}">Home</a>
-        <a href="{{ route('about') }}">About</a>
-        <a href="{{ route('service') }}">Services</a>
-        <a href="{{ route('portfolio') }}">Portfolio</a>
+        <a href="{{ route('home') }}">Beranda</a>
+        <a href="{{ route('about') }}">Tentang</a>
+        <a href="{{ route('service') }}">Pelayanan</a>
+        <a href="{{ route('portfolio') }}"class="active">Portfolio</a>
         <a href="{{ route('team') }}">Team</a>
         <a href="{{ route('contact') }}">Contact</a>
         </ul>
@@ -74,7 +74,7 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter="*" class="filter-active">SEMUA</li>
             <li data-filter=".filter-app">WEBSITE</li>
             <li data-filter=".filter-product">MEDIA PEMBELAJARAN</li>
             <li data-filter=".filter-branding">GAME</li>
@@ -84,120 +84,123 @@
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="{{ asset ('frontend/img/portfolio/WEBSITE-SIP.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset ('frontend/img/portfolio/website/ibs/ibs-utama.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>website SIP</h4>
+                <h4>website-Invertaris Barang Sekolah</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/WEBSITE-SIP.jpg') }}" title="Website" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('frontend/img/portfolio/website/ibs/ibs-utama.png') }}" title="Website" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('ibs-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="{{ asset ('frontend/img/portfolio/media/media-kerapansapi.png') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Media-KERAPAN SAPI</h4>
+                  <p>Klik tanda (+)Untuk melihatnya </p>
+                  <a href="{{ asset ('frontend/img/portfolio/video/Puzzle.mp4') }}" title="Media-Puzzle Game" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ route ('karapan_sapi-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="{{ asset ('frontend/img/portfolio/game/game-1.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Game-Puzzle</h4>
+                <p>klik tanda (+) Untuk melihatnya</p>
+                <a href="{{ asset ('frontend/img/portfolio/video/Puzzle.mp4') }}" title="Puzzle" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('puzzle-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <img src="{{ asset ('frontend/img/portfolio/asset/3D Hukum Newton.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Asset-Hukum Newton</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="{{ asset ('frontend/img/portfolio/asset/3D Hukum Newton.png') }}" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('asset_newton-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="{{ asset ('frontend/img/portfolio/website/ketuntasan/ketuntasan-utama.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>website -Ketuntasan</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="{{ asset ('frontend/img/portfolio/website/ketuntasan/ketuntasan-utama.png') }}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="{{ route ('portfolio-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="{{ asset ('frontend/img/portfolio/product-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset ('frontend/img/portfolio/media/media-1.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/product-1.jpg') }}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Media-Hukum Newton</h4>
+                <p>Klik Tanda (+) Untuk melihatnya</p>
+                <a href="{{ asset ('frontend/img/portfolio/video/Virtual_Fiber_Optic.mp4') }}" title="Virtual Lab" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('hukum_newton-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="{{ asset ('frontend/img/portfolio/game/game-3.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
+                <h4>Game-Konsleting Listrik</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/branding-1.jpg') }}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{ asset ('frontend/img/portfolio/game/game-3.png') }}" title="konsleting" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('konsleting_listrik-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="{{ asset ('frontend/img/portfolio/books-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset ('frontend/img/portfolio/asset/3D Karapan Sapi.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Books 1</h4>
+                <h4>Asset-Karapan Sapi</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/books-1.jpg') }}" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{ asset ('frontend/img/portfolio/asset/3D Karapan Sapi.png') }}" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('asset_sapi-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="{{ asset ('frontend/img/portfolio/BAROKAH.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset ('frontend/img/portfolio/website/ketosin/ketosin-utama.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>website -BarokahNet</h4>
+                <h4>Website-Ketosin</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/BAROKAH.jpg') }}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="{{ route ('portfolio-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{ asset ('frontend/img/portfolio/website/ketosin/ketosin-utama.png') }}" title="ketosin-web" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('ketosin-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
-
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="{{ asset ('frontend/img/portfolio/product-2.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/product-2.jpg') }}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
+                <img src="{{ asset ('frontend/img/portfolio/media/media-2.png') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Media-ES-MR</h4>
+                  <p>Klik Tanda (+) Untuk melihatnya</p>
+                  <a href="{{ asset ('frontend/img/portfolio/video/ES-MR.mp4') }}" title="ES-MR" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ route ('es-mr-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+
+              </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="{{ asset ('frontend/img/portfolio/branding-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset ('frontend/img/portfolio/game/game-2.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 2</h4>
+                <h4>Game-Virtual Lab</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/branding-2.jpg') }}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{ asset ('frontend/img/portfolio/game/game.png') }}" title="Virtual Lab" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('virtual_lab-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="{{ asset ('frontend/img/portfolio/books-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset ('frontend/img/portfolio/asset/3D Konsep Gaya.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Books 2</h4>
+                <h4>Asset- 3D Konsep Gaya</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/books-2.jpg') }}" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="{{ asset ('frontend/img/portfolio/app-3.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/app-3.jpg') }}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="{{ asset ('frontend/img/portfolio/product-3.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="portfolio-details.html" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="p" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="{{ asset ('frontend/img/portfolio/branding-3.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/branding-3.jpg') }}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="{{ asset ('frontend/img/portfolio/books-3.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="{{ asset ('frontend/img/portfolio/books-3.jpg') }}" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{ asset ('frontend/img/portfolio/asset/3D Konsep Gaya.png') }}" title="virtual lab" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route ('asset_konsep_gaya-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -210,18 +213,17 @@
     </section><!-- /Portfolio Section -->
   </main>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Lumia</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  <footer>
+    <div class="container-fluid" style="background-color: #020330; width: 100vw; margin-left: calc(-50vw + 50%); bottom: 0; left: 0; z-index: 1000;">
+      <div class="container copyright text-center p-4">
+        <p> <span>Copyright</span> <strong class="px-1 sitename">KyySolutions</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a href="#">Sauki Annaim</a>
+        </div>
       </div>
     </div>
 
-  </footer>
+      </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

@@ -52,7 +52,7 @@
         <a href="{{ route('about') }}">Tentang</a>
         <a href="{{ route('service') }}">Pelayanan</a>
         <a href="{{ route('portfolio') }}">Portfolio</a>
-        <a href="{{ route('team') }}">Team</a>
+        <a href="{{ route('team') }}"class="active">Team</a>
         <a href="{{ route('contact') }}">Contact</a>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -71,187 +71,127 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
-        <p>Perkenalkan para profesional di balik KYY Solutions - tempat dimana kreativitas bertemu teknologi. Tim kami terdiri dari web developer yang inovatif, desainer grafis yang kreatif, pengembang media pembelajaran dan game edukasi yang berpengalaman, serta konsultan akademis yang siap membantu perjalanan pendidikan Anda. Bersama-sama, kami berkomitmen menghadirkan solusi digital yang tidak hanya fungsional, tetapi juga bermakna. velit</p>
+   <div class="box team-description">
+  <p class="description">Perkenalkan para profesional di balik KYY Solutions - tempat dimana kreativitas bertemu teknologi. Tim kami terdiri dari web developer yang inovatif, desainer grafis yang kreatif, pengembang media pembelajaran dan game edukasi yang berpengalaman, serta konsultan akademis yang siap membantu perjalanan pendidikan Anda. Bersama-sama, kami berkomitmen menghadirkan solusi digital yang tidak hanya fungsional, tetapi juga bermakna.</p>
+</div>
       </div><!-- End Section Title -->
 
-      <div class="content">
-        <div class="container">
+      <div class="content" style="text-align: center;">
+  <div class="container " style="display: inline-block; text-align: left;">
 
-          <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="person">
-                <figure>
-                  <img src="{{ asset ('frontend/img/team/sauki.jpg') }}" alt="Image" class="img-fluid">
-                  <div class="social">
-                    <a href="https://www.tiktok.com/@kyy_solutions?"><span class="bi bi-tiktok"></span></a>
-                    <a href="#"><span class="bi bi-instagram"></span></a>
-                    <a href="#"><span class="bi bi-github"></span></a>
-                  </div>
-                </figure>
-                <div class="person-contents">
-                  <h3>Sauki Anna'im</h3>
-                  <span class="position">Web Development</span>
-                </div>
-              </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="person">
+          <figure>
+            <img src="{{ asset ('frontend/img/team/Sauki.png') }}" alt="Image" class="img-fluid">
+            <div class="social">
+              <a href="https://www.tiktok.com/@kyy_solutions?"><span class="bi bi-tiktok"></span></a>
+              <a href="https://www.instagram.com/saukialvaro/profile?"><span class="bi bi-instagram"></span></a>
+              <a href="{{ route ('sauki') }}"><span class="bi bi-person-standing""></span></a>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="person">
-                <figure>
-                  <img src="{{ asset ('frontend/img/team/luluk.jpg') }}" alt="Image" class="img-fluid">
-                  <div class="social">
-                  <a href="#"><span class="bi bi-tiktok"></span></a>
-                    <a href="#"><span class="bi bi-instagram"></span></a>
-                    <a href="#"><span class="bi bi-github"></span></a>
-                  </div>
-                </figure>
-                <div class="person-contents">
-                  <h3>Luluk Kusfiah</h3>
-                  <span class="position">konsultan akademik</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="person">
-                <figure>
-                  <img src="{{ asset ('frontend/img/team/team-3.jpg') }}" alt="Image" class="img-fluid">
-                  <div class="social">
-                    <a href="#"><span class="bi bi-facebook"></span></a>
-                    <a href="#"><span class="bi bi-twitter-x"></span></a>
-                    <a href="#"><span class="bi bi-linkedin"></span></a>
-                  </div>
-                </figure>
-                <div class="person-contents">
-                  <h3>Evan Smith</h3>
-                  <span class="position">Content</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="person">
-                <figure>
-                  <img src="{{ asset ('frontend/img/team/team-4.jpg') }}" alt="Image" class="img-fluid">
-                  <div class="social">
-                    <a href="#"><span class="bi bi-facebook"></span></a>
-                    <a href="#"><span class="bi bi-twitter-x"></span></a>
-                    <a href="#"><span class="bi bi-linkedin"></span></a>
-                  </div>
-                </figure>
-                <div class="person-contents">
-                  <h3>Kaylie Jones</h3>
-                  <span class="position">Accountant</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
+          </figure>
         </div>
       </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="person">
+          <figure>
+            <img src="{{ asset ('frontend/img/team/Luluk.png') }}" alt="Image" class="img-fluid">
+            <div class="social">
+            <a href="#"><span class="bi bi-tiktok"></span></a>
+              <a href="#"><span class="bi bi-instagram"></span></a>
+              <a href="{{ route ('luluk') }}"><span class="bi bi-person-standing""></span></a>
+            </div>
+          </figure>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="person">
+          <figure>
+            <img src="{{ asset ('frontend/img/team/Dimas.png') }}" alt="Image" class="img-fluid">
+            <div class="social">
+              <a href="#"><span class="bi bi-tiktok"></span></a>
+              <a href="#"><span class="bi bi-instagram"></span></a>
+              <a href="{{ route ('dimas') }}"><span class="bi bi-person-standing""></span></a>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     </section><!-- /Team Section -->
 
     <section id="skills" class="skills section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+    <div class="row skills-content skills-animation">
 
-        <div class="row gy-4">
+      <div class="col-lg-6">
 
-          <div class="col-lg-5">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
+        <div class="progress">
+          <span class="skill"><i class="bi bi-html5"></i> <span>HTML</span> <i class="val">100%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div><!-- End Skills Item -->
 
         <div class="progress">
           <span class="skill"><i class="bi bi-css3"></i> <span>CSS</span> <i class="val">90%</i></span>
           <div class="progress-bar-wrap">
             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
+        </div><!-- End Skills Item -->
 
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
-              <div class="row gy-4">
+        <div class="progress">
+          <span class="skill"><i class="bi bi-js"></i> <span>JavaScript</span> <i class="val">75%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div><!-- End Skills Item -->
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
       </div>
 
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
+      <div class="col-lg-6">
 
         <div class="progress">
           <span class="skill"><i class="bi bi-php"></i> <span>PHP</span> <i class="val">80%</i></span>
           <div class="progress-bar-wrap">
             <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
+        </div><!-- End Skills Item -->
 
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+        <div class="progress">
+          <span class="skill"><i class="bi bi-wordpress"></i> <span>WordPress/CMS</span> <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div><!-- End Skills Item -->
 
-                  <button type="submit">Send Message</button>
-                </div>
+        <div class="progress">
+          <span class="skill"><i class="bi bi-unity"></i> <span>Unity Hub</span> <i class="val">85%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div><!-- End Skills Item -->
 
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
+    </div>
 
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
+  </div>
 
   </main>
 
-<div class="container-fluid bg-primary py-4" style="background-color: #060e46; width: 100vw; margin-left: calc(-50vw + 50%);">
-  <div class="container copyright text-center">
+<div class="container-fluid" style="background-color: #020330; width: 100vw; margin-left: calc(-50vw + 50%);  bottom: 0; left: 0; z-index: 1000;">
+  <div class="container copyright text-center p-4">
     <p> <span>Copyright</span> <strong class="px-1 sitename">KyySolutions</strong> <span>All Rights Reserved</span></p>
     <div class="credits">
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Designed by <a href="#/">Sauki Annaim</a>
     </div>
   </div>
 </div>
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
 
   </footer>
 
