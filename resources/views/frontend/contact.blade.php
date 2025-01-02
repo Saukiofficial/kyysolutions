@@ -35,6 +35,140 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+<!--  custom css  -->
+<style>
+    :root {
+        --primary-color: #020330;
+        --secondary-color: #4e6bff;
+        --accent-color: #00c3ff;
+        --text-color: #333333;
+        --light-bg: #f8f9fa;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: var(--text-color);
+        background-color: #ffffff;
+    }
+
+
+
+    .sitename {
+        color:var(--secondary-color);
+        font-weight: 700;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .hero {
+        position: relative;
+        min-height: 60vh;
+        background: linear-gradient(rgba(2, 3, 48, 0.8), rgba(2, 3, 48, 0.8)), url('frontend/img/sementara.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 120px 0;
+    }
+
+    .hero h2 {
+        color: #ffffff;
+        font-weight: 700;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+    }
+
+    .contact-section {
+        padding: 80px 0;
+        background-color: var(--light-bg);
+    }
+
+    .info-card {
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .info-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .info-card i {
+        font-size: 2.5rem;
+        color: var(--secondary-color);
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-control {
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #dee2e6;
+        margin-bottom: 20px;
+    }
+
+    .form-control:focus {
+        border-color: var(--secondary-color);
+        box-shadow: 0 0 0 0.2rem rgba(78, 107, 255, 0.25);
+    }
+
+    .btn-submit {
+        background: var(--secondary-color);
+        color: #ffffff;
+        padding: 12px 30px;
+        border-radius: 30px;
+        border: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    .btn-submit:hover {
+        background: var(--primary-color);
+        transform: translateY(-2px);
+    }
+
+    .footer {
+        background: var(--secondary-color);
+        color: #ffffff;
+        padding: 30px 0;
+    }
+
+    .social-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        color: #ffffff;
+        margin: 0 10px;
+        transition: all 0.3s ease;
+    }
+
+    .social-links a:hover {
+        background: var(--secondary-color);
+        transform: translateY(-3px);
+    }
+
+    @media (max-width: 768px) {
+        .hero {
+            min-height: 40vh;
+            padding: 80px 0;
+        }
+
+        .contact-form {
+            padding: 20px;
+        }
+    }
+</style>
 </head>
 
 <body class="index-page">
@@ -68,92 +202,70 @@
   </header>
   <!-- Hero Section -->
   <section id="hero" class="hero section dark-background d-flex align-items-center justify-content-center">
-  <img src="frontend/img/sementara.jpg" alt="" data-aos="fade-in" class="img-fluid w-100">
+  <img src="frontend/img/sementara.jpg" alt="" data-aos="fade-in" class="img-fluid w-100 h-60">
 
 
   <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-10 col-sm-12">
-        <h2 class="display-3">Contact</h2>
+        <h2 class="display-3">Get in Touch</h2>
       </div>
     </div>
   </div>
 
 </section>
 <!-- /Hero Section -->
-  <main class="main">
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Alamat</h3>
-                <p>Poreh, Lenteng, Sumenep, Madura, Jawa Timur, Indonesia, 69461.</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Telephone</h3>
-                <p>081232916758</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>kyysolutions17@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+<section class="contact-section">
+    <div class="container">
+        <div class="row gy-4 justify-content-between">
+            <div class="col-lg-4">
+                <div class="info-card text-center" data-aos="fade-up">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4 class="mb-3">Lokasi</h4>
+                    <p>Poreh, Lenteng, Sumenep<br>Madura, Jawa Timur 69461</p>
                 </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                <div class="info-card text-center" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bi bi-telephone"></i>
+                    <h4 class="mb-3">Telephone</h4>
+                    <p>081232916758</p>
                 </div>
 
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                <div class="info-card text-center" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-envelope"></i>
+                    <h4 class="mb-3">Email</h4>
+                    <p>kyysolutions17@gmail.com</p>
                 </div>
+            </div>
 
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            <div class="col-lg-7">
+                <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="mb-4">Send us a Message</h3>
+                    <form action="forms/contact.php" method="post" class="php-email-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" name="message" rows="6" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Contact Form -->
 
         </div>
 
