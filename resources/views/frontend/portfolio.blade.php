@@ -145,7 +145,7 @@
                 <h4>website -Ketuntasan</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
                 <a href="{{ asset ('frontend/img/portfolio/website/ketuntasan/ketuntasan-utama.png') }}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="{{ route ('portfolio-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="{{ route ('ketuntasan-detail') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 

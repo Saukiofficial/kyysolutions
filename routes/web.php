@@ -89,6 +89,10 @@ Route::get('/puzzle-detail', function(){
 Route::get('/virtual_lab-detail', function(){
     return view('frontend.portfolio-detail.virtual_lab-detail');
 })->name('virtual_lab-detail');
+Route::get('/ketuntasan-detail', function(){
+    return view('frontend.portfolio-detail.ketuntasan-detail');
+})->name('ketuntasan-detail');
+
 
 
 
