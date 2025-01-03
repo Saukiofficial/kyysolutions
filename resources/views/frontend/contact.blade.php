@@ -43,6 +43,7 @@
         --accent-color: #00c3ff;
         --text-color: #333333;
         --light-bg: #f8f9fa;
+        --default-color: #444444;
     }
 
     body {
@@ -135,7 +136,7 @@
     }
 
     .footer {
-        background: var(--secondary-color);
+        background: var(--default-color);
         color: #ffffff;
         padding: 30px 0;
     }
@@ -154,7 +155,7 @@
     }
 
     .social-links a:hover {
-        background: var(--secondary-color);
+        background: var(--default-color);
         transform: translateY(-3px);
     }
 

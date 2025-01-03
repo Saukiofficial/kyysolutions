@@ -204,13 +204,14 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Navbar Menu</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="{{ Route('home') }}">Home</a></li>
+            <li><a href="{{ ('about') }}">Tentang</a></li>
+            <li><a href="{{ ('service') }}">Services</a></li>
+            <li><a href="{{ ('portfolio') }}">Portfolio</a></li>
+            <li><a href="{{ ('team') }}">Team</a></li>
+            <li><a href="{{ ('contact') }}">contact</a></li>
           </ul>
         </div>
 

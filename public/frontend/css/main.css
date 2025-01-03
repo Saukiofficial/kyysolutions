@@ -491,6 +491,7 @@ h6 {
 .footer .footer-about p {
   font-size: 14px;
   font-family: var(--heading-font);
+  color: var(--nav-dropdown-background-color);
 }
 
 .footer .social-links a {
@@ -502,7 +503,7 @@ h6 {
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, var(--nav-dropdown-hover-color), transparent 50%);
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -514,6 +515,7 @@ h6 {
 
 .footer h4 {
   font-size: 16px;
+  color: white;
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
@@ -521,16 +523,19 @@ h6 {
 
 .footer .footer-links {
   margin-bottom: 30px;
+  color:white;
 }
 
 .footer .footer-links ul {
   list-style: none;
+  color: #d5d9e7;
   padding: 0;
   margin: 0;
 }
 
 .footer .footer-links ul i {
   padding-right: 2px;
+  color: white;
   font-size: 12px;
   line-height: 0;
 }
@@ -539,6 +544,7 @@ h6 {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .footer .footer-links ul li:first-child {
@@ -546,7 +552,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--background-color), transparent 20%);
   display: inline-block;
   line-height: 1;
 }
@@ -557,12 +563,14 @@ h6 {
 
 .footer .footer-contact p {
   margin-bottom: 5px;
+  color: var(--background-color);
+
 }
 
 .footer .copyright {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: rgb(29, 124, 219);
+  background-color: rgb(40, 83, 129);
 }
 
 .footer .copyright p {
