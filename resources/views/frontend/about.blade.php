@@ -165,16 +165,16 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="{{ ('website-sevice-details') }}">Pembuatan Website</a></li>
-            <li><a href="{{ ('game-sevice-details') }}">Pembutan Game</a></li>
-            <li><a href="{{ ('media-sevice-details') }}">Media Pembelajaran</a></li>
-            <li><a href="{{ ('design-sevice-details') }}">Design Grafis</a></li>
-            <li><a href="{{ ('asset3d-sevice-details') }}">Asset 3D</a></li>
-            <li><a href="{{ ('skripsi-sevice-details') }}">Skripsi</a></li>
-          </ul>
-        </div>
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="{{ route ('website-service-details') }}">Pembuatan Website</a></li>
+              <li><a href="{{ route ('game-service-details') }}">Pembutan Game</a></li>
+              <li><a href="{{ route ('media-service-details') }}">Media Pembelajaran</a></li>
+              <li><a href="{{ route ('asset3d-service-details') }}">Design Grafis</a></li>
+              <li><a href="{{ route ('asset3d-service-details') }}">Asset 3D</a></li>
+              <li><a href="{{ route ('skripsi-service-details') }}">Skripsi</a></li>
+            </ul>
+          </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
