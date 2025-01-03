@@ -197,18 +197,71 @@
   </div>
 
   </main>
+<footer id="footer" class="footer light-background">
 
-<div class="container-fluid" style="background-color: #020330; width: 100vw; margin-left: calc(-50vw + 50%);  bottom: 0; left: 0; z-index: 1000;">
-  <div class="container copyright text-center p-4">
-    <p> <span>Copyright</span> <strong class="px-1 sitename">KyySolutions</strong> <span>All Rights Reserved</span></p>
-    <div class="credits">
-      Designed by <a href="#/">Sauki Annaim</a>
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="frontend/img/logo.png" alt="Logo" class="img-fluid">
+            <span class="sitename">KyySolutions</span>
+          </a>
+       <p>Sebagai penyedia jasa pembuatan website dan media game, kami menawarkan solusi terbaik untuk kebutuhan digital Anda. Dengan pengalaman dan keahlian yang mumpuni, kami dapat membantu Anda menciptakan website yang profesional dan efektif, serta media game yang menarik dan interaktif. Kami berkomitmen untuk memberikan hasil yang berkualitas tinggi dan memuaskan kebutuhan Anda.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Navbar Menu</h4>
+          <ul>
+            <li><a href="{{ Route('home') }}">Home</a></li>
+            <li><a href="{{ ('about') }}">Tentang</a></li>
+            <li><a href="{{ ('service') }}">Services</a></li>
+            <li><a href="{{ ('portfolio') }}">Portfolio</a></li>
+            <li><a href="{{ ('team') }}">Team</a></li>
+            <li><a href="{{ ('contact') }}">contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="{{ ('website-sevice-details') }}">Pembuatan Website</a></li>
+            <li><a href="{{ ('game-sevice-details') }}">Pembutan Game</a></li>
+            <li><a href="{{ ('media-sevice-details') }}">Media Pembelajaran</a></li>
+            <li><a href="{{ ('design-sevice-details') }}">Design Grafis</a></li>
+            <li><a href="{{ ('asset3d-sevice-details') }}">Asset 3D</a></li>
+            <li><a href="{{ ('skripsi-sevice-details') }}">Skripsi</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>KyySolutions</p>
+          <p>Sumenep,Madura,JawaTimur,No.hp 081232916758</p>
+          <p>Indonesia</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>081232916758</span></p>
+          <p><strong>Email:</strong> <span>kyysolutions17@gmail.com</span></p>
+        </div>
+
+      </div>
     </div>
-  </div>
-</div>
 
-  </footer>
+    <footer>
+        <div class="container-fluid" style="background-color: #020330; width: 100vw; margin-left: calc(-50vw + 50%); bottom: 0; left: 0; z-index: 1000;">
+          <div class="container copyright text-center p-4">
+            <p> <span>Copyright</span> <strong class="px-1 sitename">KyySolutions</strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
 
+          </footer>
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

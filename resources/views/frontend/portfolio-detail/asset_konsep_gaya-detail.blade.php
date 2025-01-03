@@ -192,14 +192,15 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
+            <img src="frontend/img/logo.png" alt="Logo" class="img-fluid">
             <span class="sitename">KyySolutions</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+       <p>Sebagai penyedia jasa pembuatan website dan media game, kami menawarkan solusi terbaik untuk kebutuhan digital Anda. Dengan pengalaman dan keahlian yang mumpuni, kami dapat membantu Anda menciptakan website yang profesional dan efektif, serta media game yang menarik dan interaktif. Kami berkomitmen untuk memberikan hasil yang berkualitas tinggi dan memuaskan kebutuhan Anda.</p>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -218,21 +219,22 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="{{ ('website-sevice-details') }}">Pembuatan Website</a></li>
+            <li><a href="{{ ('game-sevice-details') }}">Pembutan Game</a></li>
+            <li><a href="{{ ('media-sevice-details') }}">Media Pembelajaran</a></li>
+            <li><a href="{{ ('design-sevice-details') }}">Design Grafis</a></li>
+            <li><a href="{{ ('asset3d-sevice-details') }}">Asset 3D</a></li>
+            <li><a href="{{ ('skripsi-sevice-details') }}">Skripsi</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <p>KyySolutions</p>
+          <p>Sumenep,Madura,JawaTimur,No.hp 081232916758</p>
+          <p>Indonesia</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>081232916758</span></p>
+          <p><strong>Email:</strong> <span>kyysolutions17@gmail.com</span></p>
         </div>
 
       </div>
