@@ -120,7 +120,7 @@
 
 <script>
   const typedText = document.getElementById('typed-text');
-  const textToType = 'Selamat Datang di KyySolutions';
+  const textToType = 'Welcome to KyySolutions';
   let index = 0;
   let speed = 50;
 
