@@ -240,28 +240,33 @@
             </div>
 
             <div class="col-lg-7">
-                <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
-                    <h3 class="mb-4">Send us a Message</h3>
-                    <form action="forms/contact.php" method="post" class="php-email-form">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                            </div>
-                            <div class="col-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Your Message" required></textarea>
-                            </div>
-                            <div class="col-12 text-center">
-                                <button type="submit" class="btn btn-submit">Send Message</button>
-                            </div>
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="mb-4">Send us a Message</h3>
+                <!-- Ganti action dengan URL FormSubmit -->
+                <form action="https://formsubmit.co/kyysolutions17@gmail.com" method="POST">
+                    <!-- Tambahkan input hidden untuk konfigurasi -->
+                    <input type="hidden" name="_subject" value="New Contact Form Message">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://kyysolutions.store//thank-you">
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
                         </div>
-                    </form>
-                </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

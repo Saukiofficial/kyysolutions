@@ -79,7 +79,38 @@
       <div class="col-lg-8">
         <h2 id="typed-text"></h2>
         <p>Solusi Terbaik untuk Pengembangan Skill Anda</p>
-        <a href="{{ route ('service') }}" class="btn-get-started">Get Started</a>
+        <a href="{{ route ('service') }}" class="btn-get-started" id="get-started-btn">Get Started</a>
+
+<script>
+  const getStartedBtn = document.getElementById('get-started-btn');
+
+  getStartedBtn.addEventListener('mouseover', () => {
+    getStartedBtn.style.transform = 'scale(1.1)';
+    getStartedBtn.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.2)';
+  });
+
+  getStartedBtn.addEventListener('mouseout', () => {
+    getStartedBtn.style.transform = 'scale(1)';
+    getStartedBtn.style.boxShadow = 'none';
+  });
+</script>
+
+<style>
+  .btn-get-started {
+    background-color: #020330;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .btn-get-started:hover {
+    background-color: #7dc71d;
+    color: #010111;
+  }
+</style>
       </div>
     </div>
   </div>
@@ -88,7 +119,7 @@
 
 <script>
   const typedText = document.getElementById('typed-text');
-  const textToType = 'Welcome To Kyy Solutions';
+  const textToType = 'Selamat Datang di KyySolutions';
   let index = 0;
   let speed = 50;
 
@@ -97,6 +128,12 @@
       typedText.textContent += textToType.charAt(index);
       index++;
       setTimeout(typeText, speed);
+    } else {
+      setTimeout(function() {
+        typedText.textContent = '';
+        index = 0;
+        typeText();
+      }, 2000);
     }
   }
 
