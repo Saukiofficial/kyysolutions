@@ -51,17 +51,18 @@
         <h1 class="sitename">KyySolutions</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu ">
-       <ul>
-      <a href="{{ route('home') }}"class="active">Beranda</a>
-        <a href="{{ route('about') }}">Tentang</a>
-        <a href="{{ route('service') }}">Pelayanan</a>
-        <a href="{{ route('portfolio') }}">Portfolio</a>
-        <a href="{{ route('team') }}">Team</a>
-        <a href="{{ route('contact') }}">Contact</a>
+      <nav id="navmenu" class="navmenu d-flex align-items-center justify-content-between">
+        <ul>
+          <li><a href="{{ route('home') }}" class="active"><i class="bi bi-house fs-5 me-2"></i> Beranda</a></li>
+          <li><a href="{{ route('about') }}"><i class="bi bi-info-circle fs-5 me-2"></i> Tentang</a></li>
+          <li><a href="{{ route('service') }}"><i class="bi bi-briefcase fs-5 me-2"></i> Pelayanan</a></li>
+          <li><a href="{{ route('portfolio') }}"><i class="bi bi-image fs-5 me-2"></i> Portfolio</a></li>
+          <li><a href="{{ route('team') }}"><i class="bi bi-people fs-5 me-2"></i> Team</a></li>
+          <li><a href="{{ route('contact') }}"><i class="bi bi-envelope fs-5 me-2"></i> Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list fs-5"></i>
       </nav>
+
 
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>

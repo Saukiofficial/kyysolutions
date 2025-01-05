@@ -570,11 +570,12 @@ h6 {
 .footer .copyright {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: rgb(40, 83, 129);
+  background-color: rgb(4, 23, 44);
 }
 
 .footer .copyright p {
   margin-bottom: 0;
+  color: white;
 }
 
 .footer .credits {

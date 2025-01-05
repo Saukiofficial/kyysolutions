@@ -39,9 +39,9 @@
 <style>
     :root {
         --primary-color: #020330;
-        --secondary-color: #4e6bff;
-        --accent-color: #00c3ff;
-        --text-color: #333333;
+        --secondary-color: #162faa;
+        --accent-color: #f8f9fa;
+        --text-color: #e2e4eb;
         --light-bg: #f8f9fa;
         --default-color: #170a5e;
     }
@@ -155,7 +155,7 @@
     }
 
     .social-links a:hover {
-        background: var(--default-color);
+        background: white;
         transform: translateY(-3px);
     }
 
@@ -182,17 +182,18 @@
         <h1 class="sitename">KyySolutions</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu ">
+      <nav id="navmenu" class="navmenu d-flex align-items-center justify-content-between">
         <ul>
-         <a href="{{ route('home') }}">Beranda</a>
-        <a href="{{ route('about') }}">Tentang</a>
-        <a href="{{ route('service') }}">Pelayanan</a>
-        <a href="{{ route('portfolio') }}">Portfolio</a>
-        <a href="{{ route('team') }}">Team</a>
-        <a href="{{ route('contact') }}"class="active">Contact</a>
+          <li><a href="{{ route('home') }}"><i class="bi bi-house fs-5 me-2"></i> Beranda</a></li>
+          <li><a href="{{ route('about') }}"><i class="bi bi-info-circle fs-5 me-2"></i> Tentang</a></li>
+          <li><a href="{{ route('service') }}"><i class="bi bi-briefcase fs-5 me-2"></i> Pelayanan</a></li>
+          <li><a href="{{ route('portfolio') }}"><i class="bi bi-image fs-5 me-2"></i> Portfolio</a></li>
+          <li><a href="{{ route('team') }}"><i class="bi bi-people fs-5 me-2"></i> Team</a></li>
+          <li><a href="{{ route('contact') }}"class="active"><i class="bi bi-envelope fs-5 me-2"></i> Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list fs-5"></i>
       </nav>
+
 
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -302,12 +303,12 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Navbar Menu</h4>
           <ul>
-            <li><a href="{{ Route('home') }}">Home</a></li>
-            <li><a href="{{ ('about') }}">Tentang</a></li>
-            <li><a href="{{ ('service') }}">Services</a></li>
-            <li><a href="{{ ('portfolio') }}">Portfolio</a></li>
-            <li><a href="{{ ('team') }}">Team</a></li>
-            <li><a href="{{ ('contact') }}">contact</a></li>
+            <li><a href="{{ route('home') }}"><i class="bi bi-house fs-5 me-2"></i> Beranda</a></li>
+            <li><a href="{{ route('about') }}"><i class="bi bi-info-circle fs-5 me-2"></i> Tentang</a></li>
+            <li><a href="{{ route('service') }}"><i class="bi bi-briefcase fs-5 me-2"></i> Pelayanan</a></li>
+            <li><a href="{{ route('portfolio') }}"><i class="bi bi-image fs-5 me-2"></i> Portfolio</a></li>
+            <li><a href="{{ route('team') }}"><i class="bi bi-people fs-5 me-2"></i> Team</a></li>
+            <li><a href="{{ route('contact') }}"><i class="bi bi-envelope fs-5 me-2"></i> Contact</a></li>
           </ul>
         </div>
 
@@ -334,9 +335,7 @@
 
       </div>
     </div>
-
-    <footer>
-        <div class="container-fluid" style="background-color: #020330; width: 100vw; margin-left: calc(-50vw + 50%); bottom: 0; left: 0; z-index: 1000;">
+        <div class="container-fluid" style="background-color: #170a5e; width: 100vw; margin-left: calc(-50vw + 50%); bottom: 0; left: 0; z-index: 1000;">
           <div class="container copyright text-center p-4">
             <p> <span>Copyright</span> <strong class="px-1 sitename">KyySolutions</strong> <span>All Rights Reserved</span></p>
             <div class="credits">
