@@ -19,22 +19,13 @@
 
   <!-- Vendor CSS Files -->
   <link href="{{ asset ('frontend/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset ('frontend/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  {{--  <link href="{{ asset ('frontend/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">  --}}
   <link href="{{ asset ('frontend/vendor/aos/aos.css') }}" rel="stylesheet">
   <link href="{{ asset ('frontend/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
   <link href="{{ asset ('frontend/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="{{ asset ('frontend/css/main.css') }}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: KyySolutions
-  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-
-  ======================================================== -->
 </head>
 
 <body class="index-page">

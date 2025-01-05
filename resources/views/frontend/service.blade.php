@@ -26,14 +26,6 @@
 
   <!-- Main CSS File -->
   <link href="{{ asset ('frontend/css/main.css') }}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: KyySolutions
-  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
