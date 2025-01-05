@@ -9,6 +9,9 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
+
+    @vite(['resources/js/app.js'])
+
   <!-- Favicons -->
   <link href="{{ asset('frontend/img/favicon.png')}}" rel="icon">
   <link href="{{ asset ('frontend/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
@@ -70,19 +73,35 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background" style="width: 100%; min-height: 100vh; margin: 0; padding: 0; position: relative; overflow: hidden;">
-        <div class="container text-center md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="row justify-content-center md-4">
-              <div class="col-lg-8">
-                <h2>Welcome to KyySolutions</h2>
-                <p>Solusi Terbaik untuk kebutuhan anda</p>
-            <a href="{{ route ('service') }}" class="btn-get-started">Get Started</a>
-              </div>
-            </div>
-          </div>
-        <img src="{{ asset ('frontend/img/sementara.jpg') }}" alt="" data-aos="fade-in" style="width: 100%; height: 100vh; object-fit: cover; position: absolute; top: 0; left: 0;">
-
+   <section id="hero" class="hero section dark-background" style="width: 100%; min-height: 100vh; margin: 0; padding: 0; position: relative; overflow: hidden;">
+  <div class="container text-center md-4" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center md-4">
+      <div class="col-lg-8">
+        <h2 id="typed-text"></h2>
+        <p>Solusi Terbaik untuk Pengembangan Skill Anda</p>
+        <a href="{{ route ('service') }}" class="btn-get-started">Get Started</a>
+      </div>
+    </div>
+  </div>
+  <img src="{{ asset ('frontend/img/sementara.jpg') }}" alt="" data-aos="fade-in" style="width: 100%; height: 100vh; object-fit: cover; position: absolute; top: 0; left: 0;">
 </section>
+
+<script>
+  const typedText = document.getElementById('typed-text');
+  const textToType = 'Welcome To Kyy Solutions';
+  let index = 0;
+  let speed = 50;
+
+  function typeText() {
+    if (index < textToType.length) {
+      typedText.textContent += textToType.charAt(index);
+      index++;
+      setTimeout(typeText, speed);
+    }
+  }
+
+  typeText();
+</script>
     <!-- /Hero Section -->
     <footer>
         <div class="container-fluid" style="background-color: #020330; width: 100vw; margin-left: calc(-50vw + 50%); bottom: 0; left: 0; z-index: 1000;">

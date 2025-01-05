@@ -1,1 +1,5 @@
-import './bootstrap';
+import { initWelcomeAnimation } from './animation';
+
+document.addEventListener('DOMContentLoaded', () => {
+    initWelcomeAnimation();
+});
