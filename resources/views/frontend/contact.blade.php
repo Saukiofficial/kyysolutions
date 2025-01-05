@@ -247,7 +247,7 @@
                     <!-- Tambahkan input hidden untuk konfigurasi -->
                     <input type="hidden" name="_subject" value="New Contact Form Message">
                     <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_next" value="https://kyysolutions.store//thank-you">
+                    <input type="hidden" name="_next" value="https://kyysolutions.store/contact">
 
                     <div class="row g-3">
                         <div class="col-md-6">
