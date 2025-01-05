@@ -159,24 +159,24 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Navbar Menu</h4>
           <ul>
-            <li><a href="{{ Route('home') }}">Home</a></li>
-            <li><a href="{{ ('about') }}">Tentang</a></li>
-            <li><a href="{{ ('service') }}">Services</a></li>
-            <li><a href="{{ ('portfolio') }}">Portfolio</a></li>
-            <li><a href="{{ ('team') }}">Team</a></li>
-            <li><a href="{{ ('contact') }}">contact</a></li>
+            <li><a href="{{ route('home') }}"><i class="bi bi-house fs-5 me-2"></i> Beranda</a></li>
+            <li><a href="{{ route('about') }}"><i class="bi bi-info-circle fs-5 me-2"></i> Tentang</a></li>
+            <li><a href="{{ route('service') }}"><i class="bi bi-briefcase fs-5 me-2"></i> Pelayanan</a></li>
+            <li><a href="{{ route('portfolio') }}"><i class="bi bi-image fs-5 me-2"></i> Portfolio</a></li>
+            <li><a href="{{ route('team') }}"><i class="bi bi-people fs-5 me-2"></i> Team</a></li>
+            <li><a href="{{ route('contact') }}"><i class="bi bi-envelope fs-5 me-2"></i> Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-                <li><a href="{{ route('home') }}" class="active"><i class="bi bi-house fs-5 me-2"></i> Beranda</a></li>
-                <li><a href="{{ route('about') }}"><i class="bi bi-info-circle fs-5 me-2"></i> Tentang</a></li>
-                <li><a href="{{ route('service') }}"><i class="bi bi-briefcase fs-5 me-2"></i> Pelayanan</a></li>
-                <li><a href="{{ route('portfolio') }}"><i class="bi bi-image fs-5 me-2"></i> Portfolio</a></li>
-                <li><a href="{{ route('team') }}"><i class="bi bi-people fs-5 me-2"></i> Team</a></li>
-                <li><a href="{{ route('contact') }}"><i class="bi bi-envelope fs-5 me-2"></i> Contact</a></li>
+                <li><a href="{{ route ('website-service-details') }}">Pembuatan Website</a></li>
+                <li><a href="{{ route ('game-service-details') }}">Pembutan Game</a></li>
+                <li><a href="{{ route ('media-service-details') }}">Media Pembelajaran</a></li>
+                <li><a href="{{ route ('asset3d-service-details') }}">Design Grafis</a></li>
+                <li><a href="{{ route ('asset3d-service-details') }}">Asset 3D</a></li>
+                <li><a href="{{ route ('skripsi-service-details') }}">Skripsi</a></li>
               </ul>
           </div>
 
