@@ -108,10 +108,10 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="frontend/img/portfolio/app-1.jpg" alt="">
+              <img src="frontend/img/portfolio/game/game-1.png" alt="">
             </div>
 
-            <div class="swiper-slide">
+            {{--  <div class="swiper-slide">
               <img src="frontend/img/portfolio/product-1.jpg" alt="">
             </div>
 
@@ -121,7 +121,7 @@
 
             <div class="swiper-slide">
               <img src="frontend/img/portfolio/books-1.jpg" alt="">
-            </div>
+            </div>  --}}
 
           </div>
           <div class="swiper-button-prev"></div>
@@ -133,34 +133,27 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>This is an example of portfolio details</h2>
+              <h2>Game- Puzzle</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Produk ini adalah aplikasi game edukasi berbasis Android yang menggabungkan elemen puzzle dengan materi matematika bangun ruang. Aplikasi ini bertujuan untuk membuat pembelajaran bangun ruang menjadi lebih menarik dan interaktif. Melalui teka-teki dan tantangan dalam bentuk puzzle, siswa dapat memahami konsep-konsep geometri dengan mudah
               </p>
               <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+                Ditambah dengan video pembelajaran yang mendalam, aplikasi ini memberikan pengalaman belajar yang komprehensif dan memotivasi pengguna untuk terus belajar. Aplikasi ini menyajikan berbagai jenis puzzle yang berkaitan dengan bangun ruang, seperti kubus, balok, limas, tabung, bola, dan kerucut.
               </p>
 
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Setiap level puzzle fokus pada aspek-aspek penting dari bangun ruang, seperti menghitung volume, luas permukaan, atau menghitung panjang sisi dengan bantuan rumus. Pengguna dihadapkan pada tantangan menyusun bentuk bangun ruang 3D secara visual melalui potongan-potongan puzzle.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <div>
-                  <img src="frontend/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <img src="frontend/img/testimonials/Dimas.png" class="testimonial-img" alt="">
+                  <h3>Dimas</h3>
+                  <h4>Game Development</h4>
                 </div>
               </div>
 
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-              </p>
-
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
 
             </div>
           </div>
@@ -169,17 +162,16 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                <li><strong>Category</strong> GAME</li>
+                <li><strong>Client</strong>Skripsi</li>
+                <li><strong>Sistem Operasi</strong>Android</li>
+                <li><strong>capasitas</strong>176 Mb</li>
+                <li><strong>Project date</strong> 5 Agustus, 2023</li>
+                <li><strong>Software Pengembang </strong> Unity 2021, Blander, CorelDraw, PhotoShop CS6 ,Mixamo</li>
               </ul>
             </div>
           </div>
-
         </div>
-
       </div>
 
     </section><!-- /Portfolio Details Section -->

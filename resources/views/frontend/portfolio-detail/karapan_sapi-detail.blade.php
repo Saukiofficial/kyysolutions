@@ -108,10 +108,10 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="frontend/img/portfolio/app-1.jpg" alt="">
+              <img src="frontend/img/portfolio/media/media-kerapansapi.png" alt="">
             </div>
 
-            <div class="swiper-slide">
+            {{--  <div class="swiper-slide">
               <img src="frontend/img/portfolio/product-1.jpg" alt="">
             </div>
 
@@ -121,7 +121,7 @@
 
             <div class="swiper-slide">
               <img src="frontend/img/portfolio/books-1.jpg" alt="">
-            </div>
+            </div>  --}}
 
           </div>
           <div class="swiper-button-prev"></div>
@@ -133,35 +133,26 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>This is an example of portfolio details</h2>
+              <h2>Media Pembelajaran Karapan sapi</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Produk ini merupakan aplikasi media pembelajaran interaktif berbasis Augmented Reality (AR) yang dirancang untuk membantu siswa memahami konsep usaha dan energi dalam mata pelajaran Fisika.
               </p>
               <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+                . Dengan mengangkat tema lokal Kerapan Sapi, aplikasi ini menghadirkan pengalaman belajar yang menarik dan kontekstual, menghubungkan teori sains dengan budaya tradisional Pulau Madura. Aplikasi ini memungkinkan pengguna untuk memproyeksikan simulasi balapan kerapan sapi dalam lingkungan nyata melalui perangkat Android.
               </p>
 
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Siswa dapat melihat dan berinteraksi dengan objek 3D sapi, gerobak, dan jalur balapan menggunakan kamera smartphone mereka.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <div>
-                  <img src="frontend/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <img src="frontend/img/testimonials/Dimas.png" class="testimonial-img" alt="">
+                  <h3>Dimas</h3>
+                  <h4>Game Developer</h4>
                 </div>
               </div>
-
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-              </p>
-
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
-
             </div>
           </div>
 
@@ -169,11 +160,12 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                <li><strong>Category</strong> Media Pembelajaran</li>
+                <li><strong>Client</strong>Skripsi</li>
+                <li><strong>Sistem Operasi</strong>Android</li>
+                <li><strong>capasitas</strong>100 Mb</li>
+                <li><strong>Project date</strong> 5 Agustus, 2023</li>
+                <li><strong>Software Pengembang </strong> Unity 2021, Blander, CorelDraw, PhotoShop CS6 ,Mixamo</li>
               </ul>
             </div>
           </div>
