@@ -8,6 +8,9 @@ Route::get('/', function () {
 Route::get('/service', function () {
     return view('frontend.service');
 })->name('service');
+Route::get('/login', function () {
+    return view('admin.login');
+})->name('login');
 Route::get('/portfolio', function(){
     return view('frontend.portfolio');
 })->name('portfolio');
