@@ -124,6 +124,18 @@
           </figure>
         </div>
       </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="person">
+          <figure>
+            <img src="{{ asset ('frontend/img/team/fadhol.png') }}" alt="Image" class="img-fluid">
+            <div class="social">
+              <a href="#"><span class="bi bi-tiktok"></span></a>
+              <a href="#"><span class="bi bi-instagram"></span></a>
+              <a href="{{ route ('Dimas') }}"><span class="bi bi-person-standing""></span></a>
+            </div>
+          </figure>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>KyySolutions</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -63,7 +64,7 @@
   </header>
 
   <main class="main">
-
+    <!-- animasi -->
     <!-- Hero Section -->
    <section id="hero" class="hero section dark-background" style="width: 100%; min-height: 100vh; margin: 0; padding: 0; position: relative; overflow: hidden;">
   <div class="container text-center md-4" data-aos="fade-up" data-aos-delay="100">
@@ -71,6 +72,7 @@
       <div class="col-lg-8">
         <h2 id="typed-text"></h2>
         <p>Solusi Terbaik untuk Pengembangan Skill Anda</p>
+        {{--  <model-viewer src="{{ asset('frontend/img/algoritma.glb') }}" style="width: 100%; height: 100vh;" camera-controls ></model-viewer>  --}}
         <a href="{{ route ('service') }}" class="btn-get-started" id="get-started-btn">Get Started</a>
 
 <script>
